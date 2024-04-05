@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px){
     #profile {
-        height: 83vh;
+        height: 78vh;
         margin-bottom: -30rem;
     }
 
@@ -18,8 +18,8 @@
         display: flex;
     }
 
-    #about{
-        margin-top: 288px;
+    #about {
+        margin-top: 48rem;
     }
 
     #experience, .experience-details-container {
@@ -33,7 +33,8 @@
     .section__pic-container{
         text-align: center;
         position: relative;
-        left: 163px;
+        left: 274px;
+        height: 370px;
     }
 
     .section__text{
@@ -46,6 +47,7 @@
 
     section, .section-container{
         height: fit-content;
+        margin-top: 34px;
     }
 
     section{
@@ -54,6 +56,18 @@
 
     .about-containers {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+        margin-top: 46rem;
+    }
+
+    .section__pic-container{
+        height: 341px;
+        width:  auto;
+        left: 180px;
     }
 }
 
@@ -82,7 +96,7 @@
 
     .section__pic-container{
         text-align: center;
-        margin-right: 334px;
+        margin-right: 320px;
     }
 
     .section__text{
@@ -129,4 +143,12 @@
     .text-container {
         text-align: justify;
     }
+}
+
+
+@media screen and (max-width: 350px) {
+.section__pic-container{
+    text-align: center;
+    margin-left: -18px;
+}
 }
